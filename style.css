@@ -159,6 +159,10 @@ ul li {
   background-color: rgba(62, 135, 245, 0.8);
   border-radius: 20px;
 }
+.search_wrapper:hover {
+  filter: drop-shadow(4px 8px 25px rgba(62, 134, 245, 0.25));
+  transition: 0.5s;
+}
 .search_wrapper img {
   padding: 40px 40px 20px 40px;
 }
