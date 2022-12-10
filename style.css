@@ -129,6 +129,8 @@ ul li {
 .flight_details_container {
   background-color: white;
   border-radius: 25px;
+  position: absolute;
+  top: 750px;
 }
 .flights_details_wrapper {
   padding: 60px 48px;
@@ -139,6 +141,13 @@ ul li {
   align-items: center;
   justify-content: center;
 }
+.flights_wrapper h3 {
+  color: #000000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
 .flights_wrapper p {
   font-style: normal;
   font-weight: 500;
@@ -148,10 +157,10 @@ ul li {
 }
 .search_wrapper {
   background-color: rgba(62, 135, 245, 0.8);
-  border-radius: 70px;
+  border-radius: 20px;
 }
 .search_wrapper img {
-  padding: 50px;
+  padding: 40px 40px 20px 40px;
 }
 .details_one {
   display: flex;
