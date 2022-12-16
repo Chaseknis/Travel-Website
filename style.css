@@ -264,11 +264,13 @@ ul li {
   justify-content: center;
 }
 .card_image_details_container {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   padding-top: 20px;
+  padding-left: 20px;
 }
 .relax {
   display: flex;
@@ -291,9 +293,9 @@ ul li {
 .days_tag {
   color: rgba(0, 0, 0, 0.5);
   font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 21px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
 }
 .image_card_date {
   letter-spacing: 0.5em;
@@ -308,4 +310,44 @@ line-height: 21px;
 }
 .cards {
   padding-top: 40px;
+}
+.booking_price_wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.booking_price_wrapper a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #3e86f5;
+  background-color: #f2f6ff;
+  border-radius: 10px;
+  padding: 13px 19px;
+}
+.card_image_details_container .loga {
+  color: #000000;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  padding-top: 12px;
+  letter-spacing: 1px;
+}
+.booking_price_wrapper h3 {
+  color: #000000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+.booking_price_wrapper span {
+  color: rgba(0, 0, 0, 0.5);
+  font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
 }
